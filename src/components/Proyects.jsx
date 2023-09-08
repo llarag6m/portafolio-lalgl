@@ -7,7 +7,7 @@ const Proyects = () => {
         <div className="grid gap-4 click shadow-2xl bg-gray-500/40 shadow-white rounded-lg p-5 sm:grid-cols-3">
 
             <div className="relative overflow-hidden h-full w-full rounded-xl ">
-                <img className="object-cover object-center overflow-hidden w-full h-full transition duration-300 ease-in-out hover:scale-110" src="/public/img/frases.png" alt="" />
+                <img className="object-cover object-center overflow-hidden w-full h-full transition duration-300 ease-in-out hover:scale-110" src="/img/frases.png" alt="" />
                 <div className="absolute bottom-0 left-0 w-[100%] h-[100%] bgfond flex justify-center items-center flex-col text-center p-1 port">
                     <h1 className="font-extrabold text-4xl">Frases aleatorias</h1>
                     <p className="font-semibold m-4">Una aplicación es que sirva como una página de entretenimiento e información que 
@@ -21,7 +21,7 @@ const Proyects = () => {
 
 
             <div className="relative overflow-hidden h-full w-full rounded-xl ">
-                <img className="object-cover object-center overflow-hidden w-full h-full transition duration-300 ease-in-out hover:scale-110" src="/public/img/clima.png" alt="" />
+                <img className="object-cover object-center overflow-hidden w-full h-full transition duration-300 ease-in-out hover:scale-110" src="/img/clima.png" alt="" />
                 <div className="absolute bottom-0 left-0 w-[100%] h-[100%] bgfond flex justify-center items-center flex-col text-center p-1 port">
                     <h1 className="font-extrabold text-4xl">App del clima</h1>
                     <p className="font-semibold m-4">Una aplicación que muestra la información sobre el clima en el lugar donde se 
@@ -34,7 +34,7 @@ const Proyects = () => {
             </div>
 
             <div className="relative overflow-hidden h-full w-full rounded-xl ">
-                <img className="object-cover object-center overflow-hidden w-full h-full transition duration-300 ease-in-out hover:scale-110" src="/public/img/Rick and Morty.png" alt="" />
+                <img className="object-cover object-center overflow-hidden w-full h-full transition duration-300 ease-in-out hover:scale-110" src="/img/Rick and Morty.png" alt="" />
                 <div className="absolute bottom-0 left-0 w-[100%] h-[100%] bgfond flex justify-center items-center flex-col text-center p-1 port">
                     <h1 className="font-extrabold text-4xl">Rick and Morty</h1>
                     <p className="font-semibold m-4">Un sitio o aplicacion donde el usuario pueda ver toda la información sobre las ubicaciones 
@@ -47,7 +47,7 @@ const Proyects = () => {
             </div>
 
             <div className="relative overflow-hidden h-full w-full rounded-xl ">
-                <img className="object-cover object-center overflow-hidden w-full h-full transition duration-300 ease-in-out hover:scale-110" src="/public/img/Users.png" alt="" />
+                <img className="object-cover object-center overflow-hidden w-full h-full transition duration-300 ease-in-out hover:scale-110" src="/img/Users.png" alt="" />
                 <div className="absolute bottom-0 left-0 w-[100%] h-[100%] bgfond flex justify-center items-center flex-col text-center p-1 port">
                     <h1 className="font-extrabold text-4xl">Usuarios</h1>
                     <p className="font-semibold m-4">Una aplicación donde se puedan administrar usuarios a través de un CRUD.
@@ -60,7 +60,7 @@ const Proyects = () => {
             </div>
 
             <div className="relative overflow-hidden h-full w-full rounded-xl ">
-                <img className="object-cover object-center overflow-hidden w-full h-full transition duration-300 ease-in-out hover:scale-110 sec" src="/public/img/pokedex.png" alt="" />
+                <img className="object-cover object-center overflow-hidden w-full h-full transition duration-300 ease-in-out hover:scale-110 sec" src="/img/pokedex.png" alt="" />
                 <div className="absolute bottom-0 left-0 w-[100%] h-[100%] bgfond flex justify-center items-center flex-col text-center p-4 port">
                     <h1 className="font-extrabold text-4xl">Pokedex</h1>
                     <p className="font-semibold m-4">Una aplicacion que permite ver los 1250 pokemons junto con la informacion
@@ -73,7 +73,7 @@ const Proyects = () => {
             </div>
 
             <div className="relative overflow-hidden h-full w-full rounded-xl ">
-                <img className="object-cover object-center overflow-hidden w-full h-full transition duration-300 ease-in-out hover:scale-110 sec" src="/public/img/e-commerce.png" alt="" />
+                <img className="object-cover object-center overflow-hidden w-full h-full transition duration-300 ease-in-out hover:scale-110 sec" src="/img/e-commerce.png" alt="" />
                 <div className="absolute bottom-0 left-0 w-[100%] h-[100%] bgfond flex justify-center items-center flex-col text-center p-4  port">
                     <h1 className="font-extrabold text-4xl">E-Commerce</h1>
                     <p className="font-semibold m-4">Desarrollo del proyecto un carrito de compras, usando HTML, CSS y JavaScript, 
