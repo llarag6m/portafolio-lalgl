@@ -47,7 +47,8 @@ function App() {
         </div>
 
         <div>
-          <a className=' text-white inline-flex justify-center items-center w-[50px] h-[50px] bg-transparent border-cyan-600 border-solid border-[4px] rounded-full m-2 bg-black hover:bg-cyan-400 shadow-lg hover:shadow-cyan-400 hover:text-black font-bold ' href="#Home"><i className='bx bxs-up-arrow-circle text-5xl'></i></a>
+          <a className=' text-white inline-flex justify-center items-center w-[50px] h-[50px] bg-transparent border-cyan-600 border-solid border-[4px] rounded-full m-2 bg-black hover:bg-cyan-400 shadow-lg hover:shadow-cyan-400 hover:text-black font-bold animate-bounce
+          .' href="#Home"><i className='bx bxs-up-arrow-circle text-5xl'></i></a>
         </div>
       </footer>
     </main>
@@ -55,3 +56,4 @@ function App() {
 }
 
 export default App
+2364

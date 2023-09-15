@@ -1,7 +1,7 @@
 const Proyects = () => {
   return (
 
-    <section className="text-white bg-fond2 min-h-screen bg-cover p-28 parallax min-w-[860px]" id="Proyectos">
+    <section className="text-white bg-fond2 min-h-screen bg-cover p-2 parallax min-w-[860px]" id="Proyectos">
         <h1 className="font-extrabold text-4xl mb-[70px] text-center">Proyectos <span className="text-blue-500">Realizados</span></h1>
 
         <div className="grid gap-4 click shadow-2xl bg-gray-500/40 shadow-white rounded-lg p-5 sm:grid-cols-3">
@@ -9,7 +9,7 @@ const Proyects = () => {
             <div className="relative overflow-hidden h-full w-full rounded-xl ">
                 <img className="object-cover object-center overflow-hidden w-full h-full transition duration-300 ease-in-out hover:scale-110" src="/img/frases.png" alt="" />
                 <div className="absolute bottom-0 left-0 w-[100%] h-[100%] bgfond flex justify-center items-center flex-col text-center p-1 port">
-                    <h1 className="font-extrabold text-4xl">Frases aleatorias</h1>
+                    <h1 className="font-extrabold text-3xl">Frases aleatorias</h1>
                     <p className="font-semibold m-4">Una aplicación es que sirva como una página de entretenimiento e información que 
                     muestre aleatoriamente una frase y un fondo al dar click sobre un botón.</p>
                     <div className="inline-flex gap-10">
@@ -23,7 +23,7 @@ const Proyects = () => {
             <div className="relative overflow-hidden h-full w-full rounded-xl ">
                 <img className="object-cover object-center overflow-hidden w-full h-full transition duration-300 ease-in-out hover:scale-110" src="/img/clima.png" alt="" />
                 <div className="absolute bottom-0 left-0 w-[100%] h-[100%] bgfond flex justify-center items-center flex-col text-center p-1 port">
-                    <h1 className="font-extrabold text-4xl">App del clima</h1>
+                    <h1 className="font-extrabold text-3xl">App del clima</h1>
                     <p className="font-semibold m-4">Una aplicación que muestra la información sobre el clima en el lugar donde se 
                     encuentra la personas que visita la pagina y ademas de buscar y saber el clima de otros lugares.</p>
                     <div className="inline-flex gap-10">
@@ -36,7 +36,7 @@ const Proyects = () => {
             <div className="relative overflow-hidden h-full w-full rounded-xl ">
                 <img className="object-cover object-center overflow-hidden w-full h-full transition duration-300 ease-in-out hover:scale-110" src="/img/Rick and Morty.png" alt="" />
                 <div className="absolute bottom-0 left-0 w-[100%] h-[100%] bgfond flex justify-center items-center flex-col text-center p-1 port">
-                    <h1 className="font-extrabold text-4xl">Rick and Morty</h1>
+                    <h1 className="font-extrabold text-3xl">Rick and Morty</h1>
                     <p className="font-semibold m-4">Un sitio o aplicacion donde el usuario pueda ver toda la información sobre las ubicaciones 
                     del universo de “Rick and Morty" utilizando listas y Keys, inputs controlados, renderizado condicional. </p>
                     <div className="inline-flex gap-10">
@@ -47,9 +47,9 @@ const Proyects = () => {
             </div>
 
             <div className="relative overflow-hidden h-full w-full rounded-xl ">
-                <img className="object-cover object-center overflow-hidden w-full h-full transition duration-300 ease-in-out hover:scale-110" src="/img/Users.png" alt="" />
+                <img className="object-cover object-center overflow-hidden w-full h-full transition duration-300 ease-in-out hover:scale-110 sec" src="/img/Users.png" alt="" />
                 <div className="absolute bottom-0 left-0 w-[100%] h-[100%] bgfond flex justify-center items-center flex-col text-center p-1 port">
-                    <h1 className="font-extrabold text-4xl">Usuarios</h1>
+                    <h1 className="font-extrabold text-3xl">Usuarios</h1>
                     <p className="font-semibold m-4">Una aplicación donde se puedan administrar usuarios a través de un CRUD.
                     utilizando metodos HTTP y inputs controlados “React Hook Form”</p>
                     <div className="inline-flex gap-10">
@@ -62,7 +62,7 @@ const Proyects = () => {
             <div className="relative overflow-hidden h-full w-full rounded-xl ">
                 <img className="object-cover object-center overflow-hidden w-full h-full transition duration-300 ease-in-out hover:scale-110 sec" src="/img/pokedex.png" alt="" />
                 <div className="absolute bottom-0 left-0 w-[100%] h-[100%] bgfond flex justify-center items-center flex-col text-center p-4 port">
-                    <h1 className="font-extrabold text-4xl">Pokedex</h1>
+                    <h1 className="font-extrabold text-3xl">Pokedex</h1>
                     <p className="font-semibold m-4">Una aplicacion que permite ver los 1250 pokemons junto con la informacion
                     de cada pokemon ya sea por nombre o tipo usando React router y Redux.</p>
                     <div className="inline-flex gap-10">
@@ -74,8 +74,8 @@ const Proyects = () => {
 
             <div className="relative overflow-hidden h-full w-full rounded-xl ">
                 <img className="object-cover object-center overflow-hidden w-full h-full transition duration-300 ease-in-out hover:scale-110 sec" src="/img/e-commerce.png" alt="" />
-                <div className="absolute bottom-0 left-0 w-[100%] h-[100%] bgfond flex justify-center items-center flex-col text-center p-4  port">
-                    <h1 className="font-extrabold text-4xl">E-Commerce</h1>
+                <div className="absolute bottom-0 left-0 w-[100%] h-[100%] bgfond flex justify-center items-center flex-col text-center p-1  port">
+                    <h1 className="font-extrabold text-3xl">E-Commerce</h1>
                     <p className="font-semibold m-4">Desarrollo del proyecto un carrito de compras, usando HTML, CSS y JavaScript, 
                     así como el manejo de el DOM, eventos, localStorage,usando la API fetch para consumir los productos, Flexbox CSS, Grid CSS, 
                     posicionamiento y más. </p>

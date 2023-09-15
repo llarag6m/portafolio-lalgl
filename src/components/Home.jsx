@@ -12,15 +12,16 @@ const Home = () => {
             <br />
 
             <div className="inline-flex "> 
-                <a className="flex justify-center items-center w-[50px] h-[50px] bg-transparent border-cyan-600 border-solid border-[4px] rounded-full m-2 bg-black hover:bg-cyan-400 shadow-lg hover:shadow-cyan-400 hover:text-black" href="#"><i className='bx bxl-facebook-circle'></i></a> 
-                <a className="flex justify-center items-center w-[50px] h-[50px] bg-transparent border-cyan-600 border-solid border-[4px] rounded-full m-2 bg-black hover:bg-cyan-400 shadow-lg hover:shadow-cyan-400 hover:text-black" href="#"><i className='bx bxl-whatsapp'></i></a>
-                <a className="flex justify-center items-center w-[50px] h-[50px] bg-transparent border-cyan-600 border-solid border-[4px] rounded-full m-2 bg-black hover:bg-cyan-400 shadow-lg hover:shadow-cyan-400 hover:text-black" href="#"><i className='bx bxl-linkedin'></i></a>
-                <a className="flex justify-center items-center w-[50px] h-[50px] bg-transparent border-cyan-600 border-solid border-[4px] rounded-full m-2 bg-black hover:bg-cyan-400 shadow-lg hover:shadow-cyan-400 hover:text-black" href="#"><i className='bx bxl-telegram'></i></a>
+                <a className="flex justify-center items-center w-[50px] h-[50px] bg-transparent border-cyan-600 border-solid border-[4px] rounded-full m-2 bg-black hover:bg-cyan-400 shadow-lg hover:shadow-cyan-400 hover:text-black animate-bounce transition delay-150 duration-300 ease-in-out" href="https://github.com/llarag6m" target="_blank"><i className='bx bxl-github text-2xl'></i></a> 
+                <a className="flex justify-center items-center w-[50px] h-[50px] bg-transparent border-cyan-600 border-solid border-[4px] rounded-full m-2 bg-black hover:bg-green-500 shadow-lg hover:shadow-cyan-400 hover:text-black animate-bounce transition delay-150 duration-300 ease-in-out" href="https://wa.me/2215313503?text=Comuninicate_conmigo_para_mas_datelles " target="_blank"><i className='bx bxl-whatsapp text-2xl'></i></a>
+                <a className="flex justify-center items-center w-[50px] h-[50px] bg-transparent border-cyan-600 border-solid border-[4px] rounded-full m-2 bg-black hover:bg-blue-600 shadow-lg hover:shadow-cyan-400 hover:text-black animate-bounce transition delay-150 duration-300 ease-in-out" href="https://www.linkedin.com/in/luis-alberto-lara-gonzalez-a3a4b7291/" target="_blank"><i className='bx bxl-linkedin text-2xl'></i></a>
+                <a className="flex justify-center items-center w-[50px] h-[50px] bg-transparent border-cyan-600 border-solid border-[4px] rounded-full m-2 bg-black hover:bg-red-600 shadow-lg hover:shadow-cyan-400 hover:text-black animate-bounce transition delay-150 duration-300 ease-in-out" href="mailto:l.al98@hotmail.com" target="_blank"><i className='bx bxs-envelope text-2xl'></i></a>
+                <h1><i className='bx bxs-left-arrow text-2xl flex justify-center items-center animate-bounce'>Contactame</i></h1>
             </div>
             
 
             <div className="flex ">
-              <button className="flex justify-center items-center bg-black rounded-3xl p-[10px] w-[190px] h-12 ml-[35%] hover:bg-cyan-400 hover:shadow-md hover:shadow-cyan-400 hover:text-black font-semibold " href="#">Descargar CV</button>
+              <button className="flex justify-center items-center bg-black rounded-3xl p-[10px] w-[190px] h-12 ml-[35%] hover:bg-cyan-400 hover:shadow-md hover:shadow-cyan-400 hover:text-black font-semibold"><a href="/public/download/prueba.pdf" target="_blank" >Descargar CV</a></button>
             </div>
         </div>
 
