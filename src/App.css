@@ -86,7 +86,7 @@ img{
 .write-machine {  
     display: block;
     white-space: nowrap; /* los espacios en blanco no rompen la línea */        
-    width: 55%; /* el ancho será el número de caracteres que tiene nuestra línea */
+    width: 60%; /* el ancho será el número de caracteres que tiene nuestra línea */
     animation: escribiendo 3s steps(20) infinite;          
     overflow: hidden;
   }

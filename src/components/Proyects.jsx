@@ -1,10 +1,10 @@
 const Proyects = () => {
   return (
 
-    <section className="text-white bg-fond2 min-h-screen bg-cover p-2 parallax min-w-[860px]" id="Proyectos">
+    <section className="text-white bg-fond2 min-h-screen bg-cover p-28 parallax min-w-[860px]" id="Proyectos">
         <h1 className="font-extrabold text-4xl mb-[70px] text-center">Proyectos <span className="text-blue-500">Realizados</span></h1>
 
-        <div className="grid gap-4 click shadow-2xl bg-gray-500/40 shadow-white rounded-lg p-5 sm:grid-cols-3">
+        <div className="grid gap-4 click shadow-2xl bg-gray-500/40 shadow-white rounded-lg p-5 md:grid-cols-3 ">
 
             <div className="relative overflow-hidden h-full w-full rounded-xl ">
                 <img className="object-cover object-center overflow-hidden w-full h-full transition duration-300 ease-in-out hover:scale-110" src="/img/frases.png" alt="" />

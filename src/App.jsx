@@ -19,7 +19,7 @@ function App() {
 
   return (
     <main className=''> 
-      <header className='fixed z-20 bg-slate-900  justify-between items-center min-w-[360px] text-white p-5 w-[100%] flex shadow-md shadow-slate-900 pos'>
+      <header className='fixed z-20 bg-slate-900 justify-between items-center min-w-[360px] text-white p-5 w-[100%] flex shadow-md shadow-slate-900 pos'>
         <a className='font-extrabold text-2xl cursor-default outline-none' href="#Home">Portafolio</a>
 
         <i onClick={handlechangemenu} className='bx bx-menu font-bold text-2xl' id='menu-icon'></i> 
@@ -43,7 +43,7 @@ function App() {
 
       <footer className='bg-gray-800 flex justify-between items-center flex-wrap p-3 min-w-[860px]'>
         <div className='text-white font-bold'>
-          <p className='pl-20'>Portafolio 2023 by Luis Alberto Lara Gonzalez | All Right Reserved</p>
+          <p className='pl-20'>Portafolio 2023 by Luis Alberto Lara Gonzalez | All Right Reserved | Correo: l.al98@hotmail.com</p>
         </div>
 
         <div>
