@@ -29,7 +29,7 @@ const Contact = () => {
   return (
  
     <section className=" w-full bg-fond4 bg-cover min-h-screen text-white p-28 parallax min-w-[860px] " id="Contacto">
-        <h1 className="font-extrabold text-4xl mb-[70px] md: p-28 mx-auto flex justify-center ">Contacto por <span className="text-blue-500">Mensaje!</span></h1>
+        <h1 className="font-extrabold text-4xl mb-[70px] md: p-28 mx-auto flex justify-center ">Contactame por  <span className="text-blue-500"> Mensaje!</span></h1>
 
         <form action="https://formsubmit.co/l.al98@hotmail.com" method="POST" target="_blank" className="bg-gray-500/60 grid gap-8 p-[40px] md: relative max-w-[600px] mx-auto" >
 
@@ -57,7 +57,7 @@ const Contact = () => {
             <textarea  name="" id="" cols="30" rows="10" className="outline-none bg-slate-200 text-black resize-none" placeholder="Escribre tu mensaje" /*{...register("menssage", mandatoryInputs)}*/></textarea>
           </div>
 
-          <button onClick={handleCleanInput} className="flex justify-center items-center bg-black rounded-3xl p-[10px] w-[150px] ml-[35%] hover:bg-cyan-400 hover:shadow-md hover:shadow-cyan-400 hover:text-black font-semibold " type="submit">Enviar</button>
+          <button onClick={handleCleanInput} className="flex justify-center items-center bg-black rounded-3xl p-[10px] w-[150px] ml-[35%] hover:bg-cyan-400 hover:shadow-md hover:shadow-cyan-400 hover:text-black font-semibold " type="submit">Enviar Mensaje</button>
 
           <input type="hidden" name="_next" value="http://localhost:5173" />
           <input type="hidden" name="_captcha" value="false" />
